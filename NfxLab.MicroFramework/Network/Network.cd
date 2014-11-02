@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NfxLab.MicroFramework.Network.SecurePacket">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAAAAAAAAAAAAAgAgAAAAAAAABAwAAAAAAAA=</HashCode>
+      <FileName>Net\SecurePacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.SignalRClient">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="httpClient" Type="NfxLab.MicroFramework.Network.HttpClient">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.12" Y="0.218" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAAAAAAAAgAAAQAIAAAAABAAkRDAAAAAAAAAA=</HashCode>
+      <FileName>Net\SignalRClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="httpClient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.SignalRReceiver">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="httpClient" Type="NfxLab.MicroFramework.Network.HttpClient" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.5" />
+        <Point X="4.25" Y="4.125" />
+        <Point X="2" Y="4.125" />
+        <Point X="2" Y="2.632" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.908" Y="0.18" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAQAAAAAAAQAAAAABAAgAIAgABAAAAAA=</HashCode>
+      <FileName>Net\SignalRReceiver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="httpClient" />
+      <Field Name="client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.XivelyClient">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="httpClient" Type="NfxLab.MicroFramework.Network.HttpClient">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.146" Y="0.216" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAIAAgAAAAAAAAAAAg=</HashCode>
+      <FileName>Net\XivelyClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="httpClient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.HttpStatusCode">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Net\HttpStatusCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.HttpResponse">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAAAAAAgAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Net\HttpResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.HttpRequest">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAgAQAAAAAAkgAAAACAQACAgACAAQAAEACAA=</HashCode>
+      <FileName>Net\HttpRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Network.HttpClient">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAIAAAAAAAgAIiAAAAAAABAAAEgAAAAAAA=</HashCode>
+      <FileName>Net\HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="NfxLab.MicroFramework.Network.SignalRCallback" Collapsed="true">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\SignalRClient.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

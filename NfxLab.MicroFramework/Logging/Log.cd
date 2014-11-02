@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NfxLab.MicroFramework.Logging.Appender">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Logging\Appender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.Block">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.DebugAppender">
+    <Position X="6.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Logging\DebugAppender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.FileAppender">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Logging\FileAppender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.FrameworkLog">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEABAAAAAAAAACIAAAAAAQABAAAAgAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Logging\FrameworkLogs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.Log">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAYBAAAAQADQAAAAAAAABABAAAEEAAAQ=</HashCode>
+      <FileName>Logging\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.TextFormatter" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgIAQAAAAAAAAEAAAA=</HashCode>
+      <FileName>Logging\TextFormatter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NfxLab.MicroFramework.Logging.TraceAppender">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Logging\TraceAppender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NfxLab.MicroFramework.Logging.ILogFormatter">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Logging\ILogFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NfxLab.MicroFramework.Logging.LogType">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAABAAAEAAAAA=</HashCode>
+      <FileName>Logging\LogType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
