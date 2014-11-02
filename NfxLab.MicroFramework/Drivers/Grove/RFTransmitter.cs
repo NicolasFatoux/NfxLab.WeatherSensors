@@ -11,7 +11,7 @@ namespace NfxLab.MicroFramework.Drivers.Grove
 
         SerialPort port;
 
-        public void Plug(string portName)
+        public RFTransmitter(string portName)
         {
             port = new SerialPort(portName, BaudRate, Parity.None, 8, StopBits.One);
             port.Open();
